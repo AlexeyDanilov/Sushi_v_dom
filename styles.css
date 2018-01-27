@@ -1,0 +1,64 @@
+.header{
+	width: 100%;
+	position: relative;
+}
+
+.header__wrap{
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	z-index: 5;
+}
+
+.logo__wrap{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo-img{
+	width: 20%;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+
+.phone-num{
+	font-family: 'Roboto', sans-serif;
+	color: yellow;
+	position: relative;
+	right: 30px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.phone-icon{
+	margin-right: 10px;
+	font-size: 25px!important;
+}
+
+.h1__header{
+	font-family: 'Stalinist One', cursive;
+	font-size: 48px;
+	text-align: center;
+	color: yellow;
+}
+
+.header-gallery{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	z-index: 2;
+}
+
+.header__slide{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
