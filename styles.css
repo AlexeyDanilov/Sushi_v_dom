@@ -62,3 +62,30 @@
 	background-position: center;
 }
 
+.production{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.h2-prod{
+	font-family: 'Stalinist One', cursive;
+	font-size: 30px;
+	text-align: center;
+	color: yellow;	
+}
+
+.prod-gallery{
+	margin-top: 20px;
+	width: 100%;
+}
+
+.prod-gallery__item{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.prod-gallery__item img{
+	width: 100%;
+	height: auto;
+}
