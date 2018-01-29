@@ -23,3 +23,9 @@ $( document ).ready(function(){
 		});
 	}
 });
+
+
+  $(".by").click(function() {
+    //открыть модальное окно с id="myModal"
+    $(".modal").modal('show');
+  });
