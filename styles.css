@@ -16,7 +16,7 @@ a:hover{
 }
 
 .logo__wrap{
-	width: 59%;
+	width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -24,10 +24,11 @@ a:hover{
 }
 
 .logo-img{
-	width: 30%;
-	height: auto;
-	border-radius: 50%;
+	width: 36%;
+    height: auto;
+	border-radius: 18%;
 	margin-bottom: 50px;
+	border: 2px solid black;
 }
 
 .callback{
@@ -58,10 +59,80 @@ a:hover{
 }
 
 .h1__header{
-	font-family: 'Stalinist One', cursive;
+	background-image: url('img/bg-h1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
 	font-size: 48px;
 	text-align: center;
-	color: yellow;
+	color: black;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 18%;
+/*	text-shadow: 
+		-0   -4px 0   #000000,
+		 0   -4px 0   #000000,
+		-0    4px 0   #000000,
+		 0    4px 0   #000000,
+		-4px -0   0   #000000,
+		 4px -0   0   #000000,
+		-4px  0   0   #000000,
+		 4px  0   0   #000000,
+		-1px -4px 0   #000000,
+		 1px -4px 0   #000000,
+		-1px  4px 0   #000000,
+		 1px  4px 0   #000000,
+		-4px -1px 0   #000000,
+		 4px -1px 0   #000000,
+		-4px  1px 0   #000000,
+		 4px  1px 0   #000000,
+		-2px -4px 0   #000000,
+		 2px -4px 0   #000000,
+		-2px  4px 0   #000000,
+		 2px  4px 0   #000000,
+		-4px -2px 0   #000000,
+		 4px -2px 0   #000000,
+		-4px  2px 0   #000000,
+		 4px  2px 0   #000000,
+		-3px -4px 0   #000000,
+		 3px -4px 0   #000000,
+		-3px  4px 0   #000000,
+		 3px  4px 0   #000000,
+		-4px -3px 0   #000000,
+		 4px -3px 0   #000000,
+		-4px  3px 0   #000000,
+		 4px  3px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000;*/
+		 display: flex;
+    	justify-content: center;
+    	align-items: center;
+}
+
+.red-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #c10505;
+    margin-right: 14px;
+    margin-left: 14px;
+    position: relative;
+    top: 5px;
+    border: 1px solid black;
+}
+
+.latin{
+	font-weight: 600;
+	font-size: 62px;
+	margin-right: 16px;
+	display: inline-block;
 }
 
 .header-gallery{
@@ -230,9 +301,9 @@ a:hover{
 }
 
 .by{
-	font-size: 13px;
+	font-size: 11px;
 	font-family: 'Roboto', sans-serif;	
-	color: yellow;
+	color: white;
 	cursor: pointer;
 }
 
@@ -266,5 +337,41 @@ a:hover{
 
 	.header-gallery{
 		height: 444px;
+	}
+}
+
+@media(max-width: 991px){
+	.footer-phone-num,
+	.footer-whatsapp,
+	.footer-vk,
+	.footer-address{
+		font-size: 14px;
+	}
+
+	.footer-callback-title{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 767px){
+	.footer-logo{
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+
+	.footer-callback{
+		align-items: center;
+	}
+
+	.footer-address{
+		display: flex;
+		flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+	}
+
+	.by{
+		text-align: center;
 	}
 }
