@@ -42,20 +42,53 @@ a:hover{
 .phone-num,.phone-num a,
 .whatsapp, .whatsapp a, .vk{
 	font-family: 'Roboto', sans-serif;
-	color: yellow;
+	color: white;
 	font-size: 20px;
 	font-weight: 600;
+	text-shadow: 
+				-0   -2px 0   #000000,
+		 0   -2px 0   #000000,
+		-0    2px 0   #000000,
+		 0    2px 0   #000000,
+		-2px -0   0   #000000,
+		 2px -0   0   #000000,
+		-2px  0   0   #000000,
+		 2px  0   0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
 }
 
 .vk a{
 	font-size: 12px;
-	color: yellow;
+	color: white;
 }
 
 .phone-icon,
 .whatsapp-icon{
 	margin-right: 10px;
 	font-size: 25px!important;
+}
+
+.whatsapp-icon{
+	color: green;
+}
+
+.vk-icon{
+	color: blue;
 }
 
 .h1__header{
@@ -70,50 +103,9 @@ a:hover{
 	width: 80%;
 	margin: 0 auto;
 	border-radius: 18%;
-/*	text-shadow: 
-		-0   -4px 0   #000000,
-		 0   -4px 0   #000000,
-		-0    4px 0   #000000,
-		 0    4px 0   #000000,
-		-4px -0   0   #000000,
-		 4px -0   0   #000000,
-		-4px  0   0   #000000,
-		 4px  0   0   #000000,
-		-1px -4px 0   #000000,
-		 1px -4px 0   #000000,
-		-1px  4px 0   #000000,
-		 1px  4px 0   #000000,
-		-4px -1px 0   #000000,
-		 4px -1px 0   #000000,
-		-4px  1px 0   #000000,
-		 4px  1px 0   #000000,
-		-2px -4px 0   #000000,
-		 2px -4px 0   #000000,
-		-2px  4px 0   #000000,
-		 2px  4px 0   #000000,
-		-4px -2px 0   #000000,
-		 4px -2px 0   #000000,
-		-4px  2px 0   #000000,
-		 4px  2px 0   #000000,
-		-3px -4px 0   #000000,
-		 3px -4px 0   #000000,
-		-3px  4px 0   #000000,
-		 3px  4px 0   #000000,
-		-4px -3px 0   #000000,
-		 4px -3px 0   #000000,
-		-4px  3px 0   #000000,
-		 4px  3px 0   #000000,
-		-4px -4px 0   #000000,
-		 4px -4px 0   #000000,
-		-4px  4px 0   #000000,
-		 4px  4px 0   #000000,
-		-4px -4px 0   #000000,
-		 4px -4px 0   #000000,
-		-4px  4px 0   #000000,
-		 4px  4px 0   #000000;*/
-		 display: flex;
-    	justify-content: center;
-    	align-items: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-circle{
@@ -146,6 +138,12 @@ a:hover{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+@media(max-width: 1132px){
+	.h1__header {
+    	font-size: 29px;
+	}
 }
 
 .production{
@@ -287,8 +285,15 @@ a:hover{
 .footer-vk,
 .footer-address{
 	font-size: 17px;
-	font-family: 'Roboto', sans-serif;		
+	font-family: 'Roboto', sans-serif;	
 }
+
+.footer-phone-num a,
+.footer-whatsapp a{
+	color: white;
+}
+
+
 
 .footer-bottom{
 	margin-top: 30px;
@@ -325,16 +330,49 @@ a:hover{
 	}
 
 	.h1__header{
-		font-size: 29px;
 		margin-top: 20px;
 	}
 }
 
-@media(max-width: 427px){
+@media(max-width: 764px){
+	.h1__header{
+		font-size: 25px;
+	}	
+}
+
+@media(max-width: 686px){
 	.h1__header{
 		font-size: 20px;
 	}
 
+	.latin{
+		font-size: 48px;
+	}
+}
+
+@media(max-width: 578px){
+	.h1__header{
+		width: 97%;
+	}
+}
+
+@media(max-width: 477px){
+	.h1__header{
+		font-size: 17px;
+	}
+}
+
+@media(max-width: 429px){
+	.red-circle{
+		display: none;
+	}
+
+	.latin{
+		margin-right: 0;
+	}
+}
+
+@media(max-width: 427px){
 	.header-gallery{
 		height: 444px;
 	}
