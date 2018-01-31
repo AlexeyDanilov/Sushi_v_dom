@@ -1,3 +1,10 @@
+body{
+	background-image: url('img/bg.jpg');
+	background-repeat: repeat;
+	/*background-size: cover;*/
+	background-position: center;
+}
+
 a:hover{
 	text-decoration: none;
 }
@@ -160,7 +167,7 @@ a:hover{
 	font-family: 'Stalinist One', cursive;
 	font-size: 30px;
 	text-align: center;
-	color: yellow;	
+	color: black;	
 }
 
 .prod-gallery{
@@ -173,7 +180,7 @@ a:hover{
 .prod-gallery__item{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 	margin-bottom: 30px;
 }
 
@@ -185,6 +192,7 @@ a:hover{
 	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
+	text-align: center;
 }
 
 .prod-gallery__item__price{
@@ -196,7 +204,8 @@ a:hover{
 .ingredients{
 	font-size: 15px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;	
+	font-weight: 400;
+	text-align: center;	
 }
 
 @media(min-width: 768px){
