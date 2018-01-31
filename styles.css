@@ -153,6 +153,10 @@ a:hover{
 	}
 }
 
+.prod-slide{
+	margin-bottom: 15px;
+}
+
 .production{
 	margin-top: 50px;
 	width: 100%;
@@ -186,6 +190,7 @@ a:hover{
 
 .prod-gallery__item img{
 	width: auto;
+	margin-bottom: 5px;
 }
 
 .prod-gallery__item__title{
@@ -319,6 +324,10 @@ a:hover{
 	font-family: 'Roboto', sans-serif;	
 	color: white;
 	cursor: pointer;
+}
+
+.phone-icon-footer{
+	margin-right: 11px;
 }
 
 
